@@ -3,7 +3,7 @@
 Public evidence for selected Model Context Protocol (MCP) input contracts.
 
 **Live matrix:** https://legion-api.com/tlog/contract-matrix/  
-**Offline evidence kit:** https://legion-api.com/tlog/contract-matrix-kit-20261126.tar.gz  
+**Offline evidence kit:** https://legion-api.com/contract-matrix-kit-20261126-v3.tar.gz  
 **Transparency log:** https://legion-api.com/tlog/
 
 ## Current snapshot
