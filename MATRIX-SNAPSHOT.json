@@ -1,0 +1,80 @@
+{
+  "schema": "legion-mcp-contract-matrix-snapshot/1",
+  "observed_at": "2026-11-26T00:35:14Z",
+  "summary": {
+    "publisher_endpoints": 4,
+    "tool_tests": 5,
+    "conforms": 5,
+    "deviations": 0,
+    "inconclusive": 0
+  },
+  "root_pin_sha256": "a7c6a35b1c2c81d589a30c2ad628679bdea9da4139d49aa3c42cdde6e1c65036",
+  "probe_key_id": "k1:11ec7bbf99a487313402ebe8ea2cd64d",
+  "report": {
+    "path": "https://legion-api.com/tlog/contract-matrix/reports/probe-report-20261126T003514Z.signed.json",
+    "canonical_sha256": "b0a1817d4e2b1e0e9f8839a03281d3e7c7444ca5c0982b0789a9e9d9189b20a4",
+    "envelope_sha256": "9bde375486b682824b7f6cbee75afc58d44c14c0cd5211a1b58b36e8218d6901",
+    "timestamp_status": "NOT_BITCOIN_ANCHORED",
+    "tlog_tree_size": 83976,
+    "tlog_tree_timestamp": "2026-11-25T23:26:37Z"
+  },
+  "results": [
+    {
+      "server_id": "com.theoutdoorsapp/outdoors",
+      "tool": "search",
+      "required": [
+        "query"
+      ],
+      "additionalProperties": "absent_default_open",
+      "verdict": "CONFORMS",
+      "leaf": 60186
+    },
+    {
+      "server_id": "ai.edgechat/edgepedia",
+      "tool": "search",
+      "required": [
+        "query"
+      ],
+      "additionalProperties": "absent_default_open",
+      "verdict": "CONFORMS",
+      "leaf": 80022
+    },
+    {
+      "server_id": "ai.eosl/eosl",
+      "tool": "search_models",
+      "required": [
+        "query"
+      ],
+      "additionalProperties": "absent_default_open",
+      "verdict": "CONFORMS",
+      "leaf": 83003
+    },
+    {
+      "server_id": "co.totalcms/docs",
+      "tool": "search",
+      "required": [
+        "query"
+      ],
+      "additionalProperties": false,
+      "verdict": "CONFORMS",
+      "leaf": 64061
+    },
+    {
+      "server_id": "co.totalcms/docs",
+      "tool": "fetch",
+      "required": [
+        "id"
+      ],
+      "additionalProperties": false,
+      "verdict": "CONFORMS",
+      "leaf": 64061
+    }
+  ],
+  "limits": [
+    "CONFORMS is limited to the tested input-schema rules in this observation window.",
+    "Not a security certification, penetration test, uptime guarantee, legal opinion, or assessment of prompt injection, authorization, data handling, or untested tools.",
+    "Report is Ed25519-signed and TLOG inclusion is verifiable offline; it is not Bitcoin-anchored."
+  ],
+  "live_matrix": "https://legion-api.com/tlog/contract-matrix/",
+  "offline_kit": "https://legion-api.com/tlog/contract-matrix-kit-20261126.tar.gz"
+}
