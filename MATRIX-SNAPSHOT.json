@@ -12,63 +12,18 @@
   "probe_key_id": "k1:11ec7bbf99a487313402ebe8ea2cd64d",
   "report": {
     "path": "https://legion-api.com/tlog/contract-matrix/reports/probe-report-20261126T003514Z.signed.json",
-    "canonical_sha256": "b0a1817d4e2b1e0e9f8839a03281d3e7c7444ca5c0982b0789a9e9d9189b20a4",
+    "canonical_sha256": "255f6578b787abc335e5766ab83c48d3cea172c9aa03a1188999b2b6f01c367c",
     "envelope_sha256": "9bde375486b682824b7f6cbee75afc58d44c14c0cd5211a1b58b36e8218d6901",
     "timestamp_status": "NOT_BITCOIN_ANCHORED",
     "tlog_tree_size": 83976,
     "tlog_tree_timestamp": "2026-11-25T23:26:37Z"
   },
   "results": [
-    {
-      "server_id": "com.theoutdoorsapp/outdoors",
-      "tool": "search",
-      "required": [
-        "query"
-      ],
-      "additionalProperties": "absent_default_open",
-      "verdict": "CONFORMS",
-      "leaf": 60186
-    },
-    {
-      "server_id": "ai.edgechat/edgepedia",
-      "tool": "search",
-      "required": [
-        "query"
-      ],
-      "additionalProperties": "absent_default_open",
-      "verdict": "CONFORMS",
-      "leaf": 80022
-    },
-    {
-      "server_id": "ai.eosl/eosl",
-      "tool": "search_models",
-      "required": [
-        "query"
-      ],
-      "additionalProperties": "absent_default_open",
-      "verdict": "CONFORMS",
-      "leaf": 83003
-    },
-    {
-      "server_id": "co.totalcms/docs",
-      "tool": "search",
-      "required": [
-        "query"
-      ],
-      "additionalProperties": false,
-      "verdict": "CONFORMS",
-      "leaf": 64061
-    },
-    {
-      "server_id": "co.totalcms/docs",
-      "tool": "fetch",
-      "required": [
-        "id"
-      ],
-      "additionalProperties": false,
-      "verdict": "CONFORMS",
-      "leaf": 64061
-    }
+    {"server_id": "com.theoutdoorsapp/outdoors", "tool": "search", "required": ["query"], "additionalProperties": "absent_default_open", "verdict": "CONFORMS", "leaf": 60186},
+    {"server_id": "ai.edgechat/edgepedia", "tool": "search", "required": ["query"], "additionalProperties": "absent_default_open", "verdict": "CONFORMS", "leaf": 80022},
+    {"server_id": "ai.eosl/eosl", "tool": "search_models", "required": ["query"], "additionalProperties": "absent_default_open", "verdict": "CONFORMS", "leaf": 83003},
+    {"server_id": "co.totalcms/docs", "tool": "search", "required": ["query"], "additionalProperties": false, "verdict": "CONFORMS", "leaf": 64061},
+    {"server_id": "co.totalcms/docs", "tool": "fetch", "required": ["id"], "additionalProperties": false, "verdict": "CONFORMS", "leaf": 64061}
   ],
   "limits": [
     "CONFORMS is limited to the tested input-schema rules in this observation window.",
@@ -76,5 +31,5 @@
     "Report is Ed25519-signed and TLOG inclusion is verifiable offline; it is not Bitcoin-anchored."
   ],
   "live_matrix": "https://legion-api.com/tlog/contract-matrix/",
-  "offline_kit": "https://legion-api.com/tlog/contract-matrix-kit-20261126.tar.gz"
+  "offline_kit": "https://legion-api.com/contract-matrix-kit-20261126-v3.tar.gz"
 }
